@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Reviews</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="nav navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class='navbar-header'>
+				<a href="index.html"><img src="public/Home.png" alt="logo" class="navbar-brand"></a>
+				<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
+					<span class='sr-only'>Toggle navigation</span>
+					<span class='icon-bar'></span>
+					<span class='icon-bar'></span>
+					<span class='icon-bar'></span>
+				</button>
+			</div>
+			<ul class="nav nav-pills navbar-right collapse navbar-collapse">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="movies.html">Recommended movies</a></li>
+				<li><a href="reviews.html">Reviews</a></li>
+				<li>
+					<form class="navbar-form" role="search">
+					<div class="input-group">
+			            <input type="text" class="form-control" placeholder="Search" name="search-i" id="search">
+			            <div class="input-group-btn">
+			                <button class="btn btn-default" type="submit">
+			                	<i class="glyphicon glyphicon-search"></i>
+			                </button>
+			            </div>
+			        </div>
+			        </form>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<header>
+		<h1>Reviews</h1>
+	</header>
+	<br>
+	<div class="container well">
+		<form class="form-horizontal">
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="comment">Review</label>
+				<div class="col-sm-10">
+					<textarea class="form-control" rows="5" id="review"></textarea>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="email">Email:</label>
+				<div class="col-sm-10">
+					<input type="email" class="form-control" id="email" placeholder="Enter email">
+				</div>
+			</div>
+			<button type="submit" class="btn btn-success">Submit</button>
+		</form>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-4 col-xs-6">
+					<h3>Contact Us</h3>
+					<ul>
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Flick</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-6">
+					<h3>About Us</h3>
+					<ul>
+						<li><a href="#">Our Story</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Blog</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-6">
+					<h3>Rights</h3>
+					<ul>
+						<li><a href="#">Copyright © 2017 Pelis24 All Rights Reservered. </a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
